@@ -1,0 +1,14 @@
+:root { --lc-primary: #243b64; --lc-accent: #2d8c83; }
+body { background: #f4f6fa; color: #243044; min-height: 100vh; }
+.topbar { background: var(--lc-primary); }
+.navbar .nav-link { color: rgba(255,255,255,.88); }
+.navbar .nav-link:hover { color: #fff; }
+.page-title { font-weight: 750; color: var(--lc-primary); }
+.card { border: 0; border-radius: 14px; box-shadow: 0 4px 18px rgba(25,45,75,.06); }
+.stat-number { font-size: 2rem; font-weight: 800; color: var(--lc-primary); }
+.btn-primary { background: var(--lc-primary); border-color: var(--lc-primary); }
+.btn-success { background: var(--lc-accent); border-color: var(--lc-accent); }
+.table thead th { background: #edf1f7; color: #35445c; white-space: nowrap; }
+.form-label { font-weight: 600; }
+.required::after { content: " *"; color: #c0392b; }
+footer { margin-top: 2rem; }
